@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+    <title>Minha primeira pagina</title>
+</head>
+<body>
+    <div class="app-container">
+        <img src="./imagens/dom-casmurro.jpeg" id="cover" alt="Capa do Dom Casmurro"/>
+
+        <!-- informacoes da faixa -->
+        <div id="track-info">
+            <div id="chapter">Capítulo 1</div>
+            <div id="name-author">Machado de Assis</div>
+        </div>
+
+        <!-- botoes de controle -->
+        <div id="button-container">
+            <img src="./imagens/backward.svg" alt="Botao faixa anterior" id="btn-backward"/>
+            
+            <div id="play-pause">
+                <img src="./imagens/play.svg" alt="Botao play" class="play"/>
+                <img src="./imagens/pause.svg" alt="Botao pause" class="pause"/>
+            </div>
+
+            <img src="./imagens/forward.svg" alt="Botao proxima faixa" id="btn-forward"/>                
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
