@@ -4,19 +4,6 @@
   box-sizing: border-box;
 }
 
-:root {
-  --cor-fundo-principal: radial-gradient(circle at center, #2F1A1A 0%, #1A1010 60%, #0F0F0F 100%); /* Gradiente do fundo da imagem */
-  --cor-fundo-player: rgba(30, 20, 20, 0.15); /* Fundo do container do player com transparência para glassmorphism */
-  --cor-borda-player: rgba(255, 255, 255, 0.08); /* Borda sutil para efeito glassmorphism */
-  --cor-texto-principal: #FFFFFF; /* Títulos, nomes */
-  --cor-texto-secundario: #B3B3B3; /* Metadados, tempo */
-  --cor-destaque: #FF8C00; /* Cor principal de destaque (Laranja/Âmbar) */
-  --cor-destaque-claro: #FFA500; /* Variação mais clara para hover/ativo (Laranja mais vivo) */
-  --cor-icone-padrao: #E0E0E0; /* Cor dos ícones não destacados */
-  --cor-progresso-fundo: #4A4A4A; /* Fundo da barra de progresso não preenchida */
-  --cor-overlay-glass: rgba(255, 140, 0, 0.05); 
-}
-
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
@@ -123,11 +110,11 @@ button {
   display: none;
 }
 
-.tocando .play {
+.playing .play {
   display: none;
 }
 
-.tocando .pause {
+.playing .pause {
   display: block;
 }
 
